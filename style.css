@@ -44,3 +44,11 @@
 .navbar li a {
     padding: 3px 3px;
 }
+
+@media screen and (max-width: 800px) {
+    .header,
+    .navbar,
+    .box {
+        width: 100%;
+    }
+}
